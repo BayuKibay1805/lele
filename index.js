@@ -27,14 +27,6 @@ bot.on("ready", () => {
   console.log("I'm online bitch!");
 });
 
-bot.on("ready", () => {
-    bot.user.setActivity("PLAYING");
-    setInterval(() => {
-       let status = [`lele dengan ${bot.guilds.size} serper!`, `sambal terasi`, `music with ${config.prefix}help`, `to ABUGE×OFFICIAL`]
-       let random = Math.floor(Math.random() * status.length)
-       }, 15000);
-});
-
 //bot.on("guildMemberAdd", member => {
 //	let autonick = JSON.parse(fs.readFileSync("./autonick.json", "utf8"));
 //	if (!autonick[member.guild.id]) { 
